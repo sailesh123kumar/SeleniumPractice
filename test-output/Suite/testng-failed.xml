@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testNGSessions.Day27.MyTest.OpenCartTest">
+        <methods>
+          <include name="LoginPageURLTest"/>
+          <include name="tearDown"/>
+          <include name="LoginPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="LoginPageLogoTest"/>
+        </methods>
+      </class> <!-- testNGSessions.Day27.MyTest.OpenCartTest -->
+      <class name="testNGSessions.Day27.MyTest.OrangeHRMTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="orangeHRMURLTest"/>
+          <include name="orangeHRMTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testNGSessions.Day27.MyTest.OrangeHRMTest -->
+      <class name="testNGSessions.Day27.MyTest.GoogleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="googleTitleTest"/>
+          <include name="googleURLTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testNGSessions.Day27.MyTest.GoogleTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

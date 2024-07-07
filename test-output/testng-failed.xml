@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [TestNG Regression Suite]" guice-stage="DEVELOPMENT" verbose="3">
+  <test thread-count="3" parallel="tests" name="Google Test(failed)" verbose="3">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://naveenautomationlabs.com/opencart/index.php?route=account/register"/>
+    <classes>
+      <class name="testNGSessions.Day27.MyTest.RegistrationPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="registerTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testNGSessions.Day27.MyTest.RegistrationPageTest -->
+    </classes>
+  </test> <!-- Google Test(failed) -->
+</suite> <!-- Failed suite [TestNG Regression Suite] -->
