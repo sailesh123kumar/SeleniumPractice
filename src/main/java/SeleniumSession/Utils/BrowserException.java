@@ -1,4 +1,4 @@
-package SeleniumSession;
+package SeleniumSession.Utils;
 
 public class BrowserException extends RuntimeException {
 	

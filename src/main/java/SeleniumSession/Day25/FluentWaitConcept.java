@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 
-import SeleniumSession.ElementUtil;
+import SeleniumSession.Utils.ElementUtil;
 
 public class FluentWaitConcept {
 	static WebDriver driver;

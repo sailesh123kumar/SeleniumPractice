@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import SeleniumSession.ElementUtil;
+import SeleniumSession.Utils.ElementUtil;
 
 public class GetAttributValue {
 	static WebDriver driver;

@@ -10,7 +10,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
-import SeleniumSession.BrowserException;
+import SeleniumSession.Utils.BrowserException;
 
 public class BaseTest {
 	WebDriver driver;

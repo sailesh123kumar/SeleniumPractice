@@ -1,4 +1,4 @@
-package SeleniumSession;
+package SeleniumSession.Day02;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;

@@ -1,8 +1,10 @@
-package SeleniumSession;
+package SeleniumSession.Day04;
 
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
+
+import SeleniumSession.Day03.BrowserUtil;
 
 public class OpenCartTest {
 

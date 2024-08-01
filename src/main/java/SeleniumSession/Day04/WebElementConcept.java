@@ -1,4 +1,4 @@
-package SeleniumSession;
+package SeleniumSession.Day04;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

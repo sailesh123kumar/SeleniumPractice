@@ -1,4 +1,4 @@
-package SeleniumSession;
+package SeleniumSession.Utils;
 	
 
 	import org.openqa.selenium.Alert;

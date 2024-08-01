@@ -1,4 +1,4 @@
-package SeleniumSession;
+package SeleniumSession.Day03;
 
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;

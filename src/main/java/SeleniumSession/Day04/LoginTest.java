@@ -1,7 +1,10 @@
-package SeleniumSession;
+package SeleniumSession.Day04;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
+import SeleniumSession.Day03.BrowserUtil;
+import SeleniumSession.Utils.ElementUtil;
 
 public class LoginTest {
 	

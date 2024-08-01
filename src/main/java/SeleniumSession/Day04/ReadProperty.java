@@ -1,4 +1,4 @@
-package SeleniumSession;
+package SeleniumSession.Day04;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

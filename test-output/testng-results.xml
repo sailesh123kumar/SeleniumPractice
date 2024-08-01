@@ -1,111 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-22T12:58:09 IST" name="TestNG Regression Suite" finished-at="2024-06-22T12:58:20 IST" duration-ms="11342">
+  <suite started-at="2024-08-01T20:19:26 IST" name="Default suite" finished-at="2024-08-01T20:19:26 IST" duration-ms="98">
     <groups>
     </groups>
-    <test started-at="2024-06-22T12:58:09 IST" name="Google Test" finished-at="2024-06-22T12:58:20 IST" duration-ms="11342">
-      <class name="testNGSessions.Day27.MyTest.Day28_RegistrationPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testNGSessions.Day27.MyTest.Day28_RegistrationPageTest@22a637e7]" started-at="2024-06-22T12:58:09 IST" name="setUp" finished-at="2024-06-22T12:58:12 IST" duration-ms="3654" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://naveenautomationlabs.com/opencart/index.php?route=account/register]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-08-01T20:19:26 IST" name="Default test" finished-at="2024-08-01T20:19:26 IST" duration-ms="98">
+      <class name="testNGSessions.Day27.PriorityConcept">
+        <test-method signature="orderTest()[pri:0, instance:testNGSessions.Day27.PriorityConcept@7c0c77c7]" started-at="2024-08-01T20:19:26 IST" name="orderTest" finished-at="2024-08-01T20:19:26 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNGSessions.Day27.MyTest.Day28_RegistrationPageTest@22a637e7]" started-at="2024-06-22T12:58:13 IST" name="registerTest" data-provider="getRegTestData" finished-at="2024-06-22T12:58:15 IST" duration-ms="2696" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kavi]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[selenium]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[9988776655]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[kavi@123]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- orderTest -->
+        <test-method signature="paymentTest()[pri:0, instance:testNGSessions.Day27.PriorityConcept@7c0c77c7]" started-at="2024-08-01T20:19:26 IST" name="paymentTest" finished-at="2024-08-01T20:19:26 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNGSessions.Day27.MyTest.Day28_RegistrationPageTest@22a637e7]" started-at="2024-06-22T12:58:15 IST" name="registerTest" data-provider="getRegTestData" finished-at="2024-06-22T12:58:18 IST" duration-ms="2294" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[sail]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[selenium]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[9988776655]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[sail@123]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- paymentTest -->
+        <test-method signature="searchTest()[pri:1, instance:testNGSessions.Day27.PriorityConcept@7c0c77c7]" started-at="2024-08-01T20:19:26 IST" name="searchTest" description="search test" finished-at="2024-08-01T20:19:26 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerTest -->
-        <test-method signature="registerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNGSessions.Day27.MyTest.Day28_RegistrationPageTest@22a637e7]" started-at="2024-06-22T12:58:18 IST" name="registerTest" data-provider="getRegTestData" finished-at="2024-06-22T12:58:20 IST" duration-ms="2287" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kumar]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[selenium]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[9988776655]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[kumar@123]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- searchTest -->
+        <test-method signature="checkOut()[pri:2, instance:testNGSessions.Day27.PriorityConcept@7c0c77c7]" started-at="2024-08-01T20:19:26 IST" name="checkOut" finished-at="2024-08-01T20:19:26 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGSessions.Day27.MyTest.Day28_RegistrationPageTest@22a637e7]" started-at="2024-06-22T12:58:20 IST" name="tearDown" finished-at="2024-06-22T12:58:20 IST" duration-ms="318" status="PASS">
+        </test-method> <!-- checkOut -->
+        <test-method signature="addToCart()[pri:5, instance:testNGSessions.Day27.PriorityConcept@7c0c77c7]" started-at="2024-08-01T20:19:26 IST" name="addToCart" finished-at="2024-08-01T20:19:26 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testNGSessions.Day27.MyTest.Day28_RegistrationPageTest -->
-    </test> <!-- Google Test -->
-  </suite> <!-- TestNG Regression Suite -->
+        </test-method> <!-- addToCart -->
+      </class> <!-- testNGSessions.Day27.PriorityConcept -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
