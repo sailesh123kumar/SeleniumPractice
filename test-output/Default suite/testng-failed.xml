@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGSessions.Day27.MyTest.OpenCartTest">
+      <class name="BuilderPatter.RegistrationPageTest">
         <methods>
-          <include name="LoginPageURLTest"/>
+          <include name="userRegistrationtest"/>
+          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="LoginPageTitleTest"/>
-          <include name="setUp"/>
-          <include name="LoginPageLogoTest"/>
         </methods>
-      </class> <!-- testNGSessions.Day27.MyTest.OpenCartTest -->
+      </class> <!-- BuilderPatter.RegistrationPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

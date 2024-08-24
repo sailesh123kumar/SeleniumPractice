@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-01T20:19:26 IST" name="Default suite" finished-at="2024-08-01T20:19:26 IST" duration-ms="98">
+  <suite started-at="2024-08-24T14:58:41 IST" name="Default suite" finished-at="2024-08-24T14:58:53 IST" duration-ms="12484">
     <groups>
     </groups>
-    <test started-at="2024-08-01T20:19:26 IST" name="Default test" finished-at="2024-08-01T20:19:26 IST" duration-ms="98">
-      <class name="testNGSessions.Day27.PriorityConcept">
-        <test-method signature="orderTest()[pri:0, instance:testNGSessions.Day27.PriorityConcept@7c0c77c7]" started-at="2024-08-01T20:19:26 IST" name="orderTest" finished-at="2024-08-01T20:19:26 IST" duration-ms="17" status="PASS">
+    <test started-at="2024-08-24T14:58:41 IST" name="Default test" finished-at="2024-08-24T14:58:53 IST" duration-ms="12484">
+      <class name="BuilderPatter.RegistrationPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:BuilderPatter.RegistrationPageTest@1b1473ab]" started-at="2024-08-24T14:58:41 IST" name="setup" finished-at="2024-08-24T14:58:48 IST" duration-ms="7403" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- orderTest -->
-        <test-method signature="paymentTest()[pri:0, instance:testNGSessions.Day27.PriorityConcept@7c0c77c7]" started-at="2024-08-01T20:19:26 IST" name="paymentTest" finished-at="2024-08-01T20:19:26 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="userRegistrationtest()[pri:0, instance:BuilderPatter.RegistrationPageTest@1b1473ab]" started-at="2024-08-24T14:58:48 IST" name="userRegistrationtest" finished-at="2024-08-24T14:58:53 IST" duration-ms="4693" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- paymentTest -->
-        <test-method signature="searchTest()[pri:1, instance:testNGSessions.Day27.PriorityConcept@7c0c77c7]" started-at="2024-08-01T20:19:26 IST" name="searchTest" description="search test" finished-at="2024-08-01T20:19:26 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- userRegistrationtest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BuilderPatter.RegistrationPageTest@1b1473ab]" started-at="2024-08-24T14:58:53 IST" name="tearDown" finished-at="2024-08-24T14:58:53 IST" duration-ms="280" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchTest -->
-        <test-method signature="checkOut()[pri:2, instance:testNGSessions.Day27.PriorityConcept@7c0c77c7]" started-at="2024-08-01T20:19:26 IST" name="checkOut" finished-at="2024-08-01T20:19:26 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkOut -->
-        <test-method signature="addToCart()[pri:5, instance:testNGSessions.Day27.PriorityConcept@7c0c77c7]" started-at="2024-08-01T20:19:26 IST" name="addToCart" finished-at="2024-08-01T20:19:26 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-      </class> <!-- testNGSessions.Day27.PriorityConcept -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- BuilderPatter.RegistrationPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
